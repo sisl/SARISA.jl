@@ -4,6 +4,12 @@
 if ispath("appl-sarisa")
 	rm("appl-sarisa", recursive=true) 
 end
+if ispath("appl-sarisa.tar.gz")
+	rm("appl-sarisa.tar.gz", recursive=true) 
+end
+if ispath("appl-sarisa.tar")
+	rm("appl-sarisa.tar", recursive=true) 
+end
 
 # download and decompress
 download("http://stanford.edu/~dressel/appl-sarisa.tar.gz", "appl-sarisa.tar.gz")
