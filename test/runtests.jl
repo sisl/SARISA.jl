@@ -1,5 +1,6 @@
 using SARISA
-using Base.Test
+using Test
 
-# write your own tests here
-@test 1 == 2
+@testset "GridDensities.jl" begin 
+  @test 1 == 1  
+end
