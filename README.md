@@ -5,7 +5,7 @@ This Julia package is a wrapper for my modified APPL code that solves rho-POMDPs
 ## Installation
 ---------------
 ```
-Pkg.clone("https://github.com/dressel/SARISA.jl")
+Pkg.clone("https://github.com/sisl/SARISA.jl")
 Pkg.build("SARISA")
 ```
 
