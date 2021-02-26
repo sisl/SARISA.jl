@@ -5,14 +5,14 @@
 This Julia package is a wrapper for my modified APPL code that solves rho-POMDPs.
 
 ## Installation
----------------
+
 At the Julia command prompt, run:
 ```
 ] add https://github.com/sisl/SARISA.jl
 ```
 
 ## Running the Code
--------------------
+
 The code can be called as follows:
 ```
 sarisa(pomdpx_file::String, timeout::Real=30, variant::String="MN"; filename="temp.policy")`
