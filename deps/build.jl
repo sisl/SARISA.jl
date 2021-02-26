@@ -12,7 +12,7 @@ if ispath("appl-sarisa.tar")
 end
 
 # download and decompress
-download("http://stanford.edu/~dressel/appl-sarisa.tar.gz", "appl-sarisa.tar.gz")
+download("https://web.stanford.edu/group/sisl/resources/appl-sarisa.tar.gz", "appl-sarisa.tar.gz")
 run(`gunzip appl-sarisa.tar.gz`)
 run(`tar -xvf appl-sarisa.tar`)
 
